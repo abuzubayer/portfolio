@@ -11,8 +11,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexing-notes {
     display: flex;
+    border-bottom: 100%;
 }
 
 .half-width {
@@ -35,5 +36,10 @@ section {
 
 .top-banner {
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.second-banner {
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
